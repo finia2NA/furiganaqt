@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jaconv = "*"
+unidic-lite = "*"
+mecab-python3 = "*"
+furigana = {git = "https://github.com/finia2NA/furigana.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

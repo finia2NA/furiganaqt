@@ -1,0 +1,62 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "bbc57b284f06b2179c7c2636ae6a8ef2a33b9157af2fa0cdae8b4c36d4a7d0a1"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "furigana": {
+            "git": "https://github.com/finia2NA/furigana.git",
+            "ref": "b808583df34b2d41fda85829cbe09551d2e8254a"
+        },
+        "jaconv": {
+            "hashes": [
+                "sha256:cc70c796c19a6765598c03eac59d1399a555a9a8839cc70e540ec26f0ec3e66e"
+            ],
+            "index": "pypi",
+            "version": "==0.3"
+        },
+        "mecab-python3": {
+            "hashes": [
+                "sha256:178b632b717e3249054a7ad4c0fbc60ce8493d357afa7673d535ffa11e45eaba",
+                "sha256:18e14dfe3d8c66cfa1c9f49e3bc8ac480b79a433ec9e5b5d2c1fb73f36ec7c3e",
+                "sha256:221256b84be0ee29dc8fa450210236b40707b9d63cfc70de5102d2531622d062",
+                "sha256:3c7e87c65160e5e4edb08cb80dbce50f4e711c53f45063321aab72ab2566ffe4",
+                "sha256:445b4f5ee5674d85f6de2726ec28991801844ff71eb096129da5f5ba077d5a87",
+                "sha256:52a789c708f8b89044236201eb03c7fe5517fad5210a9de2230c7d99a2a8c760",
+                "sha256:53b0b899ef03f364bfd7fa28f260ee1e893e4f47ff90a141a522709b892f0a4e",
+                "sha256:96d9e8c098401fb4b5bd32258f4952f3b22cdb30ab291f5ff82eae1d0941cbed",
+                "sha256:b149b51f0f62c9512d219c9e79c6db2eb66e70863a97eb412d8fc3ba7a25f351",
+                "sha256:b150ad5fe4260539b4ef184657e552ef81307fbbe60ae1f258bc814549ea90f8",
+                "sha256:b2fbed960ef82f4192b31efd88af1f3c24cd1692b62720ed70d7e314a50f581e",
+                "sha256:c1606b35df0136b3e9dc7add2e69d2c1151e69fd5675c0cde62d0b017b2319e7",
+                "sha256:cb6eb6cc47e3937a2edfaa9595dc2d165ed9f025e3a53bd0a5033a12fa6bcdcf",
+                "sha256:d6ca73c0dec72038290faa6de17d57d771535eb47c22346e170dffcb82d696bb",
+                "sha256:dcd62ebf2eecde1263119b92ff5379a046bb8231cb999fafda00f0925dfcb67e",
+                "sha256:de39b82f44d97fc0fd636644ad14c9662f51afcd73775379d5a8b1eb20ee85a6",
+                "sha256:fbfad60261ad3b9390b8615528fc013302a3e8febba220f799216c1a1154ee7e"
+            ],
+            "index": "pypi",
+            "version": "==1.0.4"
+        },
+        "unidic-lite": {
+            "hashes": [
+                "sha256:db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245"
+            ],
+            "index": "pypi",
+            "version": "==1.0.8"
+        }
+    },
+    "develop": {}
+}
