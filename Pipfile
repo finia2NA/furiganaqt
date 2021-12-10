@@ -10,8 +10,10 @@ mecab-python3 = "*"
 furigana = {git = "https://github.com/finia2NA/furigana.git"}
 pyqt5 = "*"
 pyqtwebengine = "*"
+jisho-api = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.9"

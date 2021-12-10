@@ -4,42 +4,45 @@ import sys
 from PyQt5.QtWidgets import QWidget, QApplication, QVBoxLayout, QLineEdit
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 
+
 class Thing(QWidget):
 
-    def __init__(self):
-        super().__init__()
+  def __init__(self):
+    super().__init__()
 
-        self.initUI()
+    self.initUI()
 
-    def initUI(self):
+  def initUI(self):
 
-        vbox = QVBoxLayout(self)
+    vbox = QVBoxLayout(self)
 
-        self.webEngineView = QWebEngineView()
-        self.loadPage()
+    self.webEngineView = QWebEngineView()
+    self.loadPage()
 
-        self.textfield = QLineEdit()
-        self.textfield.textChanged.connect(lambda: self.webEngineView.setHtml(get_html(self.textfield.text())))
-        # self.textfield.textChanged.connect(lambda: print(self.textfield.text()))
+    self.textfield = QLineEdit()
+    self.textfield.textChanged.connect(
+        lambda: self.webEngineView.setHtml(get_html(self.textfield.text())))
+    # self.textfield.textChanged.connect(lambda: print(self.textfield.text()))
 
-        vbox.addWidget(self.textfield)
-        vbox.addWidget(self.webEngineView)
+    vbox.addWidget(self.textfield)
+    vbox.addWidget(self.webEngineView)
 
-        self.setLayout(vbox)
+    self.setLayout(vbox)
 
-        self.setGeometry(300, 300, 350, 250)
-        self.setWindowTitle('furiganatool')
-        self.show()
+    self.setGeometry(300, 300, 350, 250)
+    self.setWindowTitle('furiganatool')
+    self.show()
 
-    def loadPage(self):
-            self.webEngineView.setHtml(get_html("ようこそ"))
+  def loadPage(self):
+    self.webEngineView.setHtml(get_html("ようこそ"))
+
 
 def main():
 
-    app = QApplication(sys.argv)
-    ex = Thing()
-    sys.exit(app.exec_())
+  app = QApplication(sys.argv)
+  ex = Thing()
+  sys.exit(app.exec_())
 
 
 if __name__ == '__main__':
-    main()
+  main()
